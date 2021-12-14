@@ -1,3 +1,5 @@
+#original code, now using dart to make the executable lighter
+
 from requests import get
 from os import makedirs, startfile, environ
 from os.path import join, exists
