@@ -13,6 +13,7 @@ main_url, sub_url = open('url.txt', 'r').read().split('\n')
 
 documents = findall("<a href=\"([^\"]*)\".*class=\"doc\".*>", get(main_url).text)
 for href in documents:
+    
     print('Downloading {}'.format(href))
     dir_name = href.split('/')
     sub_target_dir = join(target_dir, *dir_name[:-1])
