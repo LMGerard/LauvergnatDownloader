@@ -1,1 +1,1 @@
-A command line apllication to scrape pdf of a site wich url is in url.txt
+A command line application to scrape pdf of a site wich url is in url.txt
